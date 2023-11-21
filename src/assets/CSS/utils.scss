@@ -1,0 +1,6 @@
+@use "sass:math";
+@import "constants";
+
+@function rem($n) {
+  @return #{ math.div($n, $generalFontSize-number)}rem;
+}

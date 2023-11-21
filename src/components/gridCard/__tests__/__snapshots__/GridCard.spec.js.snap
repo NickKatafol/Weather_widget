@@ -1,0 +1,263 @@
+// Vitest Snapshot v1
+
+exports[`Render component with props > GridCard is rendering properly 1`] = `
+{
+  "baseElement": <body>
+    <div>
+      <div
+        class="weather-card-wrapper"
+        data-v-5f9c2d4f=""
+      >
+        
+        <div
+          class="cell_item"
+          data-v-5f9c2d4f=""
+          style="grid-row: 1; grid-column: 1; color: rgb(177, 114, 193); border-color: #b172c1;"
+        >
+          <div
+            data-v-5f9c2d4f=""
+          >
+            Miami
+          </div>
+          <div
+            data-v-5f9c2d4f=""
+          >
+            US
+          </div>
+        </div>
+        <div
+          class="cell_item"
+          data-v-5f9c2d4f=""
+          style="grid-row: 2; grid-column: 1;"
+        >
+          <div
+            data-v-5f9c2d4f=""
+          >
+            longitude
+          </div>
+          <div
+            data-v-5f9c2d4f=""
+          >
+            -80.1936
+          </div>
+        </div>
+        <div
+          class="cell_item"
+          data-v-5f9c2d4f=""
+          style="grid-row: 3; grid-column: 1;"
+        >
+          <div
+            data-v-5f9c2d4f=""
+          >
+            latitude
+          </div>
+          <div
+            data-v-5f9c2d4f=""
+          >
+            25.7742
+          </div>
+        </div>
+        <div
+          class="cell_item"
+          data-v-5f9c2d4f=""
+          style="grid-row: 5; grid-column: 1;"
+        >
+          <div
+            data-v-5f9c2d4f=""
+          >
+            temperature
+          </div>
+          <div
+            data-v-5f9c2d4f=""
+          >
+            86°F
+          </div>
+        </div>
+        <div
+          class="cell_item"
+          data-v-5f9c2d4f=""
+          style="grid-row: 5; grid-column: 2;"
+        >
+          <div
+            data-v-5f9c2d4f=""
+          >
+            pressure
+          </div>
+          <div
+            data-v-5f9c2d4f=""
+          >
+            1018 hPa
+          </div>
+        </div>
+        <div
+          class="cell_item"
+          data-v-5f9c2d4f=""
+          style="grid-row: 1/span 3; grid-column: 2; background-image: url(/src/domains/Weather/assets/imgs/weatherImgs/sun.png);"
+        >
+          <div
+            data-v-5f9c2d4f=""
+          />
+          <div
+            data-v-5f9c2d4f=""
+          />
+        </div>
+        
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="weather-card-wrapper"
+      data-v-5f9c2d4f=""
+    >
+      
+      <div
+        class="cell_item"
+        data-v-5f9c2d4f=""
+        style="grid-row: 1; grid-column: 1; color: rgb(177, 114, 193); border-color: #b172c1;"
+      >
+        <div
+          data-v-5f9c2d4f=""
+        >
+          Miami
+        </div>
+        <div
+          data-v-5f9c2d4f=""
+        >
+          US
+        </div>
+      </div>
+      <div
+        class="cell_item"
+        data-v-5f9c2d4f=""
+        style="grid-row: 2; grid-column: 1;"
+      >
+        <div
+          data-v-5f9c2d4f=""
+        >
+          longitude
+        </div>
+        <div
+          data-v-5f9c2d4f=""
+        >
+          -80.1936
+        </div>
+      </div>
+      <div
+        class="cell_item"
+        data-v-5f9c2d4f=""
+        style="grid-row: 3; grid-column: 1;"
+      >
+        <div
+          data-v-5f9c2d4f=""
+        >
+          latitude
+        </div>
+        <div
+          data-v-5f9c2d4f=""
+        >
+          25.7742
+        </div>
+      </div>
+      <div
+        class="cell_item"
+        data-v-5f9c2d4f=""
+        style="grid-row: 5; grid-column: 1;"
+      >
+        <div
+          data-v-5f9c2d4f=""
+        >
+          temperature
+        </div>
+        <div
+          data-v-5f9c2d4f=""
+        >
+          86°F
+        </div>
+      </div>
+      <div
+        class="cell_item"
+        data-v-5f9c2d4f=""
+        style="grid-row: 5; grid-column: 2;"
+      >
+        <div
+          data-v-5f9c2d4f=""
+        >
+          pressure
+        </div>
+        <div
+          data-v-5f9c2d4f=""
+        >
+          1018 hPa
+        </div>
+      </div>
+      <div
+        class="cell_item"
+        data-v-5f9c2d4f=""
+        style="grid-row: 1/span 3; grid-column: 2; background-image: url(/src/domains/Weather/assets/imgs/weatherImgs/sun.png);"
+      >
+        <div
+          data-v-5f9c2d4f=""
+        />
+        <div
+          data-v-5f9c2d4f=""
+        />
+      </div>
+      
+    </div>
+  </div>,
+  "debug": [Function],
+  "emitted": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "html": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

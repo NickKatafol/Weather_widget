@@ -1,0 +1,22 @@
+@import "myNormolize.css";
+@import "elementStyles";
+
+
+:root {
+  --color-background: var(--vt-c-white);
+}
+
+body {
+  min-height: 100vh;
+  color: var(--vt-c-grey);
+  background: var(--color-background);
+  transition: all 0.7s;
+
+  line-height: 1.6;
+  font-family: Ubuntu, sans-serif;
+  font-size: rem(16);
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+

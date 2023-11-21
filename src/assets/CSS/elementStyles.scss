@@ -1,0 +1,10 @@
+@import "constants";
+
+.controller_open-space {
+  color: var(--vt-c-green);
+  cursor: pointer;
+}
+
+.controller_open-space:hover {
+  opacity: 0.8;
+}
