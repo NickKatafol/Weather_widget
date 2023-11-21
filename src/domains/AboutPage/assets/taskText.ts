@@ -9,7 +9,7 @@ Pinia,
 Vuelidate,
 This project implements passive validation via Vuelidate.
 An example of the use of preventive validation is implemented with the Nuxt.js demo project, 
-https://github.com/GreatGameNick/Exchange_calculator.git
+https://github.com/NickKatafol/Exchange_calculator.git
 
 Domain Driven Design,
 TypeScript,
