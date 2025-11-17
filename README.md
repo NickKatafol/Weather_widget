@@ -3,10 +3,15 @@
 ### Project Objective
 
 Domain Driven Design
+
 Object Oriented Programming
+
 SOLID
+
 Minor dev rules
+
 Test Driven Design
+
 BEM
 
 
