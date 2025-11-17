@@ -35,7 +35,10 @@ const route = useRoute()
 
 .about-wrapper {
   box-sizing: border-box;
-  padding: calc(var(--vt-c-common-padding)*2);
+  padding: 0 calc(var(--vt-c-common-padding)*2);
+  max-width: rem(700);
+  margin: calc(var(--vt-c-common-padding)*2) auto;
+  border-left: var(--vt-c-blue_dark) 1px solid;
   
   header {
     display: flex;
@@ -48,7 +51,10 @@ const route = useRoute()
       margin-left: auto;
       cursor: pointer;
       background-image: url("@/domains/AboutPage/assets/imgs/adminImgs/close.svg");
+      background-repeat: no-repeat;
       background-size: rem(30) rem(30);
+      border-right: var(--vt-c-blue_dark) 1px solid;
+      padding-right: var(--vt-c-common-padding);
     }
 
     .header__cross-btn:hover {

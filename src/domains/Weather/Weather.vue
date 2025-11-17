@@ -27,7 +27,7 @@ if(!weatherStore.GET_WEATHER_SETS.length)
     <div v-if="!weatherStore.GET_WEATHER_SETS.length" class="weather__loading">
        {{
         weatherStore.isWeatherFetched ?
-          `no chosen places \n point a certain please via gear-button` :
+          `no chosen places \n point a certain via gear-button` :
           `loading... \n wait please`
         }}
     </div>

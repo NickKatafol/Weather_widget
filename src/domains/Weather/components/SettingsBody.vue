@@ -40,12 +40,12 @@ const settingsState = reactive({
     longitude: {
       name: 'longitude',
       val: '',
-      placeholder: 'within (-180) end 180'
+      placeholder: '(-180) up to 180'
     },
     latitude: {
       name: 'latitude',
       val: '',
-      placeholder: 'within (-90) end 90'
+      placeholder: '(-90) up to 90'
     }
   }
 })

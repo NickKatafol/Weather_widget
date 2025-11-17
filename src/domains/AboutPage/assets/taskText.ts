@@ -1,72 +1,60 @@
 export const taskText = `
-<b>Frontend developer demo</b>
-Implement a widget that displays the weather.
-
 <span style="color: var(--vt-c-fiolet);">\# Technologies:</span>
-Vue.js - 3, 
-Pinia, 
 
-Vuelidate,
-This project implements passive validation via Vuelidate.
-An example of the use of preventive validation is implemented with the Nuxt.js demo project, 
-https://github.com/NickKatafol/Exchange_calculator.git
+Vue.js v3
+Pinia
 
-Domain Driven Design,
-TypeScript,
-Object Oriented Programming,
-class,
-Test Driven Design,
-SOLID, 
-minor dev rules,
+Vuelidate
+Drag-and-Drop
+Composabiles
 
-ES7+, 
-SCSS, grid, flexbox,
+Domain Driven Design
+Object Oriented Programming
+SOLID
+Minor dev rules
+Test Driven Design
+TypeScript
+ES6 class
 
-Vitest (unit testing), 
-Cypress (e2e testing).
+ES7+
+SCSS, grid, flexbox
+BEM
+
+Vitest (unit testing)
+Cypress (e2e testing)
 
 <span style="color: var(--vt-c-fiolet);">\# Conditions:</span>
-1. Data for the widget taken from free public API: 
+1. Data for the widget is taken from the free public API: 
 https://openweathermap.org/current,
 via ohmyfetch through <b>apiService module</b>.
 
-2. <b>API errors</b> is handlered with a message:
-- entering wrong city name while pointing weather location
+2. <b>API errors</b> is handled with a message:
+- entering the wrong city name while pointing a weather location.
 
-3. After clicking the ‘Gear’ button at the upper-right corner, the view switch to the following:
+3. After clicking the <b>‘Gear’ button</b> at the upper-right corner, the view get switched to the following:
 
-Here, a user be able to:
-a. Remove previously added location.
-b. Reorder the location by <b>dragging and dropping</b> them within the list.
-c. Add new locations.
-There is a <b>validation</b> with number within certain interval allowing negative numbers.
+A user be able to:
+a/ Add a new location.
+- There is a <b>validation</b> by a number applied.
+b/ Remove the location.
+c/ Reorder the locations by <b>dragging and dropping</b>.
 
-4. Save the configuration in the <b>local storage</b> and restore it on future visits. A user is be able
-to configure the widget just once and then have the same view until they change the computer
-or clean the storage.
+4. Save the configuration in the <b>Local Storage</b> and restore it while future visits. A user is be able to configure the widget just once and then have the same view until hi change the computer or clean the Lockal Storage out.
 
-5. If the local storage is empty it take current <b>geolocation</b> coordinates.
+5. If the local storage is empty it takes the current <b>geolocation</b> coordinates.
 
-6. Use the <b>universal applicable vue component</b> - '@/components/gridCard/GridCard.vue'.
 
-7. Make a bunch of tests where <b>unit</b> and <b>e2e tests</b> cover code with <b>Vitest</b> and <b>Cypress.io</b>.
-Unit tests include:
+6. Unit tests:
+
 - Render component with props, child components, mocking Pinia,
-- Click & Router Test - Check the Router.push work out when cross-button click,
-- Exported function Testing, test is inside of JS file,
-- Pinia Testing - testing actions, setters and getters,
-- Testing static methods of class,
-- as examples it is probably enough.
+- Click & Router Test - Check out the Router.push work when you click the cross-button,
+- Exported function Testing, the test is inside of the same JS file,
+- Pinia Testing - testing the actions, setters and getters,
+- Testing static methods of ES6 class
 
-E2E tests include:
+7. E2E tests:
+
 - routing between pages,
-- examine a bunch of business processes.
+- exam a bunch of the business processes.
 
-<span style="color: var(--vt-c-fiolet);"># Notes:</span>
-KEEP IN MIND
-There is not the production issue. 
-First at all it's just demonstration the developer style end some skills.
-It is possible to expand and deepen the presented backbone in a multifaceted and elaborate way.
-
-For example there is no objective to cover code with tests tremendously. I only point to my useful skills about it.
 `
